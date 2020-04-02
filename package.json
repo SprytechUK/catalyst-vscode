@@ -1,9 +1,11 @@
 {
-	"name": "catalyst-vscode",
-	"displayName": "catalyst-vscode",
-	"publisher": "anujpalimkar",
-	"description": "solidity template to create smart contract",
-	"version": "0.1.2",
+	"name": "catalyst-solidity-template",
+	"author": {"email": "anuj.palimkar@sprytech.uk","name": "Anuj Palimkar"},
+	"publisher": "Sprytech",
+	"icon": "media/icon1.png",
+	"displayName": "Catalyst-Solidity-Template",
+	"description": "Solidity template to create Smart Contract",
+	"version": "1.0.0",
 	"engines": {
 		"vscode": "^1.43.0"
 	},
@@ -54,7 +56,7 @@
 				{
 					"command": "nodeDependencies.viewDetails",
 					"when": "view == templates",
-					"group":"navigation"
+					"group": "navigation"
 				}
 			],
 			"view/item/context": [
